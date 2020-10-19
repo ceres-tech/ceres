@@ -702,7 +702,7 @@ section {
     padding: 30px;
     background: #fff;
     margin-bottom: 30px;
-    height: 202px;
+    height: 202px !important;
 }
 
 .counts .count-box i {
@@ -852,7 +852,7 @@ section {
 
 .services .row {
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .services .icon-comp {
