@@ -693,6 +693,8 @@ section {
 
 .counts .row {
     padding: 0 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .counts .count-box {
@@ -700,6 +702,7 @@ section {
     padding: 30px;
     background: #fff;
     margin-bottom: 30px;
+    height: 202px;
 }
 
 .counts .count-box i {
@@ -847,8 +850,16 @@ section {
     width: 100%;
 }
 
+.services .row {
+    display: flex;
+    justify-content: center;
+}
+
 .services .icon-comp {
     padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .services .competition {
