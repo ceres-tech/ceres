@@ -691,10 +691,10 @@ section {
     width: 100%;
 }
 
-.counts .row {
+.counts .row-counts {
     padding: 0 40px;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .counts .count-box {
@@ -850,7 +850,7 @@ section {
     width: 100%;
 }
 
-.services .row {
+.services .row-services {
     display: flex;
     justify-content: center !important;
 }
