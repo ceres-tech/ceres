@@ -1017,3 +1017,14 @@ section {
     text-align: center;
     font-size: 13px;
 }
+
+/*--------------------------------------------------------------
+# Responses
+--------------------------------------------------------------*/
+.responses img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 10px;
+}
