@@ -1040,6 +1040,7 @@ section {
 }
 
 .validation-description {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     padding-top: 30px;
     font-size: 20px;
@@ -1107,4 +1108,194 @@ section {
 
 .delimiter {
     margin-top: 100px;
+}
+
+
+/*--------------------------------------------------------------
+# UX
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Interviews
+--------------------------------------------------------------*/
+
+#ux {
+    padding-bottom: 30px;
+}
+
+#ux .section-title {
+    padding-top: 100px;
+    width: 90%;
+}
+
+#ux .container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+}
+
+#ux .section-subtitle {
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+    font-size: 20px;
+    color: #65707b;
+    font-weight: 600;
+    margin: 70px auto 40px;
+}
+
+#ux .ux-interviews {
+    position: relative;
+}
+
+#ux .ux-interviews .ux-interviews-questions {
+    padding: 25px;
+}
+
+#ux .ux-interviews .ux-interview {
+    min-height: 90vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#ux .ux-interviews .ux-interview .ux-interview-questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 40px 20px;
+    padding-left: 0;
+    list-style: none;
+}
+
+@media (max-width: 801px) {
+    #ux .ux-interviews .ux-interview .ux-interview-questions {
+        grid-template-columns: 1fr;
+    }
+}
+
+#ux .ux-interviews .ux-interview .ux-interview-questions li {
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 10px;
+    border: lightgray 2px solid;
+    text-align: left;
+    box-shadow: -1px 2px lightgray;
+}
+
+#ux .ux-interviews .ux-interview .ux-interview-questions li:nth-child(even) {
+    border: white;
+    background: #415e31;
+    color: white;
+}
+
+/* The dots/bullets/indicators */
+#ux .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+#ux .active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Next & previous buttons */
+#ux .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    user-select: none;
+    border-radius: 3px;
+    color: #415e31;
+}
+
+#ux .prev {
+    left: -6%;
+}
+
+/* Position the "next button" to the right */
+#ux .next {
+    right: -6%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#ux .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Fading animation */
+#ux .ux-fade {
+    -webkit-animation-name: ux-fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: ux-fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes ux-fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes ux-fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+#ux .ux-user-profile .ux-user-profile-info {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: auto;
+}
+
+#ux .ux-user-profile img {
+    width: 70%;
+    left: 10%;
+}
+
+#ux .ux-user-profile .ux-user-profile-info .ux-user-profile-details {
+    margin-right: 20%;
+    text-align: left;
+}
+
+#ux .ux-user-profile .ux-user-profile-info .ux-user-profile-details p {
+    padding: 0 0 15px 0;
+}
+
+@media (max-width: 801px) {
+    #ux .ux-user-profile .ux-user-profile-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ux .ux-user-profile img {
+        left: 0;
+        padding-bottom: 50px;
+    }
+}
+
+#ux .ux-diagrams .ux-diagram {
+    padding-top: 20px;
+    width: 80%;
+    height: 10%;
+}
+
+#ux .ux-diagrams .ux-diagram:hover {
+    transform: scale(1.6);
 }
