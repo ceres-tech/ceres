@@ -1322,3 +1322,29 @@ section {
 #ux .ux-diagrams .ux-diagrams-flow .ux-diagram:hover {
     transform: scale(2);
 }
+
+
+/* Validation 2 */
+
+.validation2-posts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.validation2-posts img {
+    max-width: 475px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.validation2-analytics img {
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.validation2-analytics-mobile img {
+    margin-bottom: 60px;
+}
