@@ -1110,7 +1110,6 @@ section {
     margin-top: 100px;
 }
 
-
 /*--------------------------------------------------------------
 # UX
 --------------------------------------------------------------*/
@@ -1202,12 +1201,14 @@ section {
     transition: background-color 0.6s ease;
 }
 
-#ux .active, .dot:hover {
+#ux .active,
+.dot:hover {
     background-color: #717171;
 }
 
 /* Next & previous buttons */
-#ux .prev, .next {
+#ux .prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -1232,8 +1233,9 @@ section {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-#ux .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.5);
+#ux .prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Fading animation */
@@ -1245,13 +1247,21 @@ section {
 }
 
 @-webkit-keyframes ux-fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes ux-fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #ux .ux-user-profile .ux-user-profile-info {
@@ -1323,8 +1333,9 @@ section {
     transform: scale(2);
 }
 
-
-/* Validation 2 */
+/*--------------------------------------------------------------
+# Validation 2
+--------------------------------------------------------------*/
 
 .validation2-posts {
     display: flex;
@@ -1347,4 +1358,103 @@ section {
 
 .validation2-analytics-mobile img {
     margin-bottom: 60px;
+}
+
+/*--------------------------------------------------------------
+# Market research
+--------------------------------------------------------------*/
+
+.market-research {
+    padding-bottom: 30px;
+}
+
+.market-research .container {
+    box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+}
+
+.market-research .section-title {
+    padding-top: 100px;
+}
+
+.market-research .section-title h2 {
+    /* padding-bottom: 60px; */
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #494f5a;
+}
+
+.market-research h2 {
+    /* padding-bottom: 60px; */
+    padding-top: 60px;
+}
+
+.market-research .market-research-content {
+    padding: 70px;
+}
+
+.market-research .market-research-content h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #494f5a;
+}
+
+.market-research .icon-comp {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.market-research .competition {
+    display: flex;
+    justify-content: center;
+}
+
+.market-research .competition img {
+    height: 90%;
+    width: 90%;
+}
+
+.competitors-table {
+    margin: 60px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.competitors-table td,
+.competitors-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.competitors-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.competitors-table tr:hover {
+    background-color: #ddd;
+}
+
+.competitors-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #415e31;
+    color: white;
+}
+
+.market-research h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #494f5a;
 }
