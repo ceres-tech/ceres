@@ -68,8 +68,7 @@
                                 <li><a href="#ux">User experience</a></li>
                                 <li><a href="#validation2">Validation 2</a></li>
                                 <li><a href="#market-research">Market research</a></li>
-                                <li><a href="#">Rebranding for MVP</a></li>
-                                <li><a href="#">Minimum Viable Product</a></li>
+                                <li><a href="#mvp">Minimum Viable Product</a></li>
                                 <li><a href="#">First sale</a></li>
                                 <li><a href="#">Final presentation</a></li>
                             </ul>
@@ -1317,6 +1316,97 @@
                         
                     </div>
                                     
+                </div>
+            </section>
+
+            <!-- ====== MVP ====== -->
+            <section id="mvp" class="mvp">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Minimum Viable Product</h2>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center market-research-content">
+                        <h4>Features</h4>
+                        <br>
+                        <p class="description">
+                            With the information gathered in the previous milestones, we built an MVP
+                            that consists in a Web Application that features an interactive map where
+                            users can monitor their crops. The MVP provides the most basic usecases
+                            that a user would need to interact with our platform.
+                        </p>
+                        <p class="description">
+                            Here is a list of features we achieved while building the MVP:
+                        </p>
+                        <ul class="mvp-feature-list">
+                            <li>User Registration/Login</li>
+                            <li>
+                                An user can add his crops into the platform by importing a
+                                .zip archive containing shapefile data downloaded from APIA website.
+                            </li>
+                            <li>
+                                Once the user's crops have been loaded into the platform, our servers
+                                start analyzing the available imagery for those crops. By default, we
+                                analyze all the available data since 01-07-2020, but the user can
+                                explicitly request a period of interest and then wait for the data to
+                                be computed.
+                            </li>
+                            <li>
+                                Analyzing data is a complex process that requires time. The satellite
+                                images have to be fetched from data stores and then they are analyzed
+                                using different algorithms (such as NDVI, NDWI, SAVI and more) to get
+                                a prediction about the crop's health.
+                            </li>
+                            <li>
+                                Once our servers start populating our databases with information, the
+                                user can start monitoring his parcels from the interactive map.
+                            </li>
+                            <li>
+                                If a parcel is clicked, a detailed view of that parcel is shown. A
+                                detailed view is composed of a graph with NDVI - a vegetation index that
+                                can predict crop health - evolution over time, as well as a weather forecast
+                                over 4 days above the selected crop.
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+
+                    <div class="d-flex flex-column justify-content-center market-research-content">
+                        <h4>Further Work</h4>
+                        <br>
+                        <p class="description">
+                            Here is a list of features we will add in the future:
+                        </p>
+                        <ul class="mvp-feature-list">
+                            <li>
+                                Parcel addition directly using the APIA API. This means the user only
+                                has to provide credentials to APIA - we won't store them, of course -
+                                and we will automatically import the parcels directly from APIA.
+                            </li>
+                            <li>
+                                Adding more indices that can provide more insight into vegetation health.
+                                Right now our platform supports NDVI, NWVI and SAVI.
+                            </li>
+                            <li>
+                                Better statistics in the parcel details section.
+                            </li>
+                            <li>
+                                Pesticide usage prediction.
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+
+                    <div class="d-flex flex-column justify-content-center market-research-content">
+                        <h4>Presentation Video</h4>
+                        <br>
+                        <p>Here's a short presentation video showcasing some features of our platform</p>
+                        <video controls width="500">
+                            <source src="assets/img/mvp_video/mvp-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <br><br>
+                    <br><br>
                 </div>
             </section>
 

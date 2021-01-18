@@ -1458,3 +1458,67 @@ section {
     padding-top: 0;
     color: #494f5a;
 }
+
+/*--------------------------------------------------------------
+# MVP
+--------------------------------------------------------------*/
+
+.mvp {
+    padding-bottom: 30px;
+}
+
+.mvp .container {
+    box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+}
+
+.mvp .section-title {
+    padding-top: 100px;
+}
+
+.mvp .section-title h2 {
+    /* padding-bottom: 60px; */
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #494f5a;
+}
+
+.mvp h2 {
+    /* padding-bottom: 60px; */
+    padding-top: 60px;
+}
+
+.mvp-feature-list li {
+    margin: 10px;
+}
+
+.mvp .mvp-content {
+    padding: 70px;
+}
+
+.mvp .mvp-content h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #494f5a;
+}
+
+.mvp .icon-comp {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.mvp h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #494f5a;
+}
